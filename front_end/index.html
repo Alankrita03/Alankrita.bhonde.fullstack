@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Resume</title>
+    <style>
+        * {
+            max-width: 700px;
+            margin: auto;
+        }
 
+        div {
+            border-radius: 5px;
+        }
+
+        #header {
+            height: 40px;
+            width: 100%;
+            background-color: #ffcccc;
+            position: fixed;
+            z-index: 1;
+        }
+
+        #title {
+            margin-left: 3%;
+        }
+
+        #footer {
+            height: 50px;
+            width: 100%;
+            background-color: #ffcccc;
+            clear: both;
+            position: relative;
+        }
+
+        .left {
+            height: 1000px;
+            width: 45px;
+            background-color: #e0eeee;
+            float: left;
+            position: fixed;
+        }
+
+        .right {
+            height: 1000px;
+            width: 45px;
+            background-color: #e0eeee;
+            float: right;
+            position: inherit;
+        }
+
+        .stuff {
+            display: inline-block;
+            margin-top: 6px;
+            margin-left: 55px;
+            width: 75%;
+            height: 1000px;
+        }
+
+        p,
+        li {
+            font-family: 'Cormorant Garamond';
+        }
+
+        .head {
+            font-size: 20px;
+        }
+
+        #name {
+            font-family: Sacramento;
+            float: right;
+            margin-top: 10px;
+            margin-right: 4%;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 430px) {
+            .left,
+            .right {
+                display: none;
+            }
+            .stuff {
+                width: 100%;
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="left"></div>
+    <div class="stuff">
+        <br><br>
+        <h1>Resume</h1>
+        <h2>Alankrita Bhonde</h2>
+        <hr />
+        <br>
+        <p class="head">Contact Information</p>
+        <p>76, Utkarsh Housing Society, Dabha, Nagpur | alankritabhonde@gmail.com</p>
+        <p class="head">Career Objective</p>
+        <p>As a dedicated B. Tech student majoring in Computer Science and Engineering, I seek opportunities to apply and enhance my skills in a professional setting. Eager to work on projects, cooperate with interdisciplinary teams, and consistently increase technical proficiency. I am dedicated to pursuing a rewarding career that allows making meaningful contributions to the field of computer science.</p>
+        <p class="head">Education</p>
+        <ul>
+            <li>Symbiosis Institute of Technology, Nagpur - B.Tech. CSE, 2022-2026
+                <ul>
+                    <li>SGPA - 8.56 (sem 3)</li>
+                    <li>CGPA- 7.90</li>
+                </ul>
+            </li>
+            <li>Shri Shivaji Science, Nagpur - 12th HSC, 2021-2022
+                <ul>
+                    <li>Percentage of marks - 76.83%</li>
+                </ul>
+            </li>
+            <li>Narayana Vidyalayam, Nagpur - 10th. CBSE, 2019-2020
+                <ul>
+                    <li>Percentage of marks - 96.40%</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="head">Technical Skills</p>
+        <ul>
+            <li>Programming Language: C++, C, Python, Java</li>
+            <li>Operating System: Windows, Linux</li>
+            <li>Database Management: Excel, Power BI</li>
+            <li>Web development: HTML, CSS</li>
+        </ul>
+        <p class="head">Projects</p>
+        <ul>
+            <li>Web Development: EQ and IQ quiz website (June 2023)</li>
+            <li>Conversational chatbot creation for college website (Group project)</li>
+        </ul>
+        <p class="head">Certifications</p>
+        <ul>
+            <li>Data Science: Natural Language Processing (NLP) in Python</li>
+            <li>Red Hat System Administration I (RH-124)</li>
+            <li>Java Fundamentals Learner - English Oracle academy</li>
+            <li>Google Cybersecurity Professional Certificate (Course 1)</li>
+        </ul>
+        <p class="head">Activities and Interests</p>
+        <ul>
+            <li>Reading</li>
+            <li>Swimming</li>
+        </ul>
+        <p class="head">Personal Details</p>
+        <ul>
+            <li>Father's Name: Vilas Bhonde</li>
+            <li>Date of Birth: 27th December 2003</li>
+            <li>Languages Known: English, Hindi, Marathi</li>
+            <li>Nationality: Indian</li>
+            <li>Marital Status: Unmarried</li>
+        </ul>
+        <p>Date: 13-07-2024</p>
+        <p>Place: Nagpur, Maharashtra</p>
+        <p>Alankrita Bhonde</p>
+    </div>
+    <div class="right"></div>
+    <div id="footer">
+        <h2 id="name">Alankrita Bhonde</h2>
+    </div>
+</body>
+</html>
