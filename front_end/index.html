@@ -13,11 +13,15 @@
         }
 
         #header {
-            height: 40px;
+            height: 100px;
             width: 100%;
             background-color: #ffcccc;
             position: fixed;
             z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
         }
 
         #title {
@@ -50,7 +54,7 @@
 
         .stuff {
             display: inline-block;
-            margin-top: 6px;
+            margin-top: 120px;
             margin-left: 55px;
             width: 75%;
             height: 1000px;
@@ -72,6 +76,12 @@
             margin-right: 4%;
         }
 
+        #profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
         a {
             color: black;
             text-decoration: none;
@@ -90,11 +100,13 @@
     </style>
 </head>
 <body>
-    <div id="header"></div>
+    <div id="header">
+        <div id="title"><h1>Resume</h1></div>
+        <div><img id="profile-img" src="D:/WhatsApp Image 2024-07-13 at 11.12.50_20a91e23.jpg" alt="Profile Image"></div>
+    </div>
     <div class="left"></div>
     <div class="stuff">
         <br><br>
-        <h1>Resume</h1>
         <h2>Alankrita Bhonde</h2>
         <hr />
         <br>
@@ -153,7 +165,7 @@
             <li>Nationality: Indian</li>
             <li>Marital Status: Unmarried</li>
         </ul>
-        <p>Date: 13-07-2024</p>
+        <p>Date: 24-04-2024</p>
         <p>Place: Nagpur, Maharashtra</p>
         <p>Alankrita Bhonde</p>
     </div>
